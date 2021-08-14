@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /**** GENERAL ****/
 
 h1 {
     color: rgb(33, 4, 87);
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     color: rgb(100, 51, 192);
+    font-weight: lighter;
 }
 
 
@@ -50,6 +55,17 @@ h2 {
 }
 
 
+/**** Destacados ****/
+
+.destacados {
+    width: 100%;
+    height: 100px;
+    background-image: url(https://images.pexels.com/photos/4219652/pexels-photo-4219652.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000);
+    background-repeat: cover;
+    background-position: right center;
+}
+
+
 /**** FOOTER GENERAL ****/
 
 footer {
@@ -75,6 +91,8 @@ footer li {
 #menu-footer {
     font-size: 16px;
     font-family: sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
 }
 
 footer a {
