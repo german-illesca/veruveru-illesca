@@ -1,3 +1,5 @@
+/**** GENERAL ****/
+
 h1 {
     color: rgb(33, 4, 87);
 }
@@ -6,64 +8,8 @@ h2 {
     color: rgb(100, 51, 192);
 }
 
-footer {
-    text-align: center;
-    border: 1px black solid;
-    margin-top: 60px;
-}
 
-footer img {
-    width: 40px;
-    height: 40px;
-}
-
-#menu-footer {
-    font-size: 16px;
-    font-family: sans-serif;
-}
-
-footer a {
-    color: #d35400;
-    padding-right: 10px;
-    text-decoration: none;
-}
-
-.tabla-medidas {
-    border-spacing: 2px;
-    border-collapse: separate;
-    height: 300px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: 50%;
-    border: black 1px solid;
-}
-
-.tabla-medidas th {
-    background-color: rgb(220, 247, 255);
-    font-weight: bold;
-    border: black 1px solid;
-}
-
-.tabla-medidas #td-titulo {
-    text-align: right;
-    font-weight: bold;
-    background-color: rgb(220, 247, 255);
-    padding-right: 5px;
-    border: black 1px solid;
-}
-
-.tabla-medidas td {
-    background-color: rgb(243, 243, 147);
-    padding: 5px;
-    border: black 1px solid;
-}
-
-.tabla-medidas tr {
-    text-align: center;
-    border: black 1px solid;
-}
+/**** ENCABEZADO GENERAL ****/
 
 .contenedor-logo,
 .menu-principal {
@@ -102,6 +48,82 @@ footer a {
     width: 150px;
     height: 150px;
 }
+
+
+/**** FOOTER GENERAL ****/
+
+footer {
+    text-align: center;
+    border: 1px black solid;
+    margin-top: 60px;
+}
+
+footer div {
+    display: inline-block
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#menu-footer {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+footer a {
+    color: #d35400;
+    text-decoration: none;
+}
+
+
+/**** PAGINA TABLA DE MEDIDAS ****/
+
+.tabla-medidas {
+    border-spacing: 2px;
+    border-collapse: separate;
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 50%;
+    border: black 1px solid;
+}
+
+.tabla-medidas th {
+    background-color: rgb(220, 247, 255);
+    font-weight: bold;
+    border: black 1px solid;
+}
+
+.tabla-medidas #td-titulo {
+    text-align: right;
+    font-weight: bold;
+    background-color: rgb(220, 247, 255);
+    padding-right: 5px;
+    border: black 1px solid;
+}
+
+.tabla-medidas td {
+    background-color: rgb(243, 243, 147);
+    padding: 5px;
+    border: black 1px solid;
+}
+
+.tabla-medidas tr {
+    text-align: center;
+    border: black 1px solid;
+}
+
+
+/**** FORMULARIO DE CONTACTO ****/
 
 .formulario-contacto input,
 select,
