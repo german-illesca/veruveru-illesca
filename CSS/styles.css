@@ -79,6 +79,11 @@ footer div {
 }
 
 footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer i {
     width: 40px;
     height: 40px;
 }
@@ -101,9 +106,32 @@ footer a {
 }
 
 
+/**** FOOTER - Social Medias ****/
+
+.fa-facebook-square {
+    color: #3b5998;
+    /* rgb(59, 91, 152); */
+}
+
+.fa-instagram-square {
+    color: red;
+    background: white;
+}
+
+.fa-whatsapp-square {
+    color: #23bd5b;
+    background: #fff;
+}
+
+.fa-envelope-open {
+    color: rgb(236, 38, 38);
+    background: white;
+}
+
+
 /**** PAGINA TABLA DE MEDIDAS ****/
 
-.tabla-medidas {
+.tablaMedidas {
     border-spacing: 2px;
     border-collapse: separate;
     height: 300px;
@@ -115,13 +143,13 @@ footer a {
     border: black 1px solid;
 }
 
-.tabla-medidas th {
+.tablaMedidas th {
     background-color: rgb(220, 247, 255);
     font-weight: bold;
     border: black 1px solid;
 }
 
-.tabla-medidas #td-titulo {
+.tablaMedidas #td-titulo {
     text-align: right;
     font-weight: bold;
     background-color: rgb(220, 247, 255);
@@ -129,13 +157,13 @@ footer a {
     border: black 1px solid;
 }
 
-.tabla-medidas td {
+.tablaMedidas td {
     background-color: rgb(243, 243, 147);
     padding: 5px;
     border: black 1px solid;
 }
 
-.tabla-medidas tr {
+.tablaMedidas tr {
     text-align: center;
     border: black 1px solid;
 }
@@ -143,16 +171,16 @@ footer a {
 
 /**** FORMULARIO DE CONTACTO ****/
 
-.formulario-contacto input,
+.formularioContacto input,
 select,
 textarea {
     margin-bottom: 15px;
 }
 
-.formulario-contacto label {
+.formularioContacto label {
     width: 50px;
 }
 
-.formulario-contacto {
+.formularioContacto {
     margin-left: 20px;
 }
