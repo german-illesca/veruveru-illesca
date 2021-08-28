@@ -161,18 +161,10 @@ footer {
     background-image: linear-gradient(90deg, rgba(247, 231, 132, 0.5) 30%, rgba(216, 123, 116, 0.8) 100%);
 }
 
-@media screen and (max-width: 768px) {
-    footer {
-        background-color: rgb(193, 233, 193);
-    }
-}
-
 footer div#redes-sociales {
     display: grid;
     grid-template-columns: repeat(23, 1fr);
     grid-template-rows: auto;
-    justify-content: space-around;
-    justify-items: center;
 }
 
 footer div#face {
@@ -400,7 +392,7 @@ select:hover {
 
 /* DEFINICIONES PANTALLAS DE MENOS DE 768px */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
     * {
         font-family: 'Times New Roman', Times, serif;
     }
