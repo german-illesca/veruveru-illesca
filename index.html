@@ -51,10 +51,46 @@
     </nav>
 
     <section id="galeriaImagenes">
-        <!--<h1>VeruVeru bebés</h1>-->
-        <br>
-        <h2>Galeria de imagenes Cover Flow </h2>
-        <br><br><br><br><br>
+        <div id="carrousel">
+            <div id="carouselIndex" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div id="item1" class="carousel-item active">
+                        <img src="./images/carrousel/pexels-helena-lopes-6635186-low.jpg" class="d-block w-100" alt="ropa-de-lana">
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="h5-item-carrousel">Abrigaditos como los que hace mi abuela</h5>
+                            <p class="p-item-carrousel">Ropa tejida, hecha a mano y con mucho amor para tu bebé</p>
+                        </div>
+                    </div>
+                    <div id="item2" class="carousel-item">
+                        <img src="./images/carrousel/pexels-katie-e-3671111-low.jpg" class="d-block w-100" alt="ropa-en-tela">
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="h5-item-carrousel">Que cancheritud!!!</h5>
+                            <p class="p-item-carrousel">Ropa hecha a mano, para que tu bebé luzca alta facha</p>
+                        </div>
+                    </div>
+                    <div id="item3" class="carousel-item">
+                        <img src="./images/carrousel/pexels-helena-lopes-4409279-low.jpg" class="d-block w-100" alt="ropa-bebe">
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="h5-item-carrousel">Y ahora que le pongo?</h5>
+                            <p class="p-item-carrousel">Ropa linda y divertida para el bebé de hoy</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndex" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
     </section>
     <section id="novedades-section">
         <h2 class="titulos">Novedades</h2>
