@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
+$color-h1: rgb(33,
+4,
+87);
+$color-h2: rgb(100,
+51,
+192);
+
+/**** GENERAL ****/
+
+* {
+    padding: 0;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: $color-h1;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    color: $color-h2;
+    font-weight: lighter;
+}
+
+@import "layout/header";
+@import "layout/footer";
