@@ -1,5 +1,10 @@
 /**** ENCABEZADO GENERAL ****/
 
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
 .contenedor-logo {
     width: 100%;
     display: grid;
@@ -14,8 +19,7 @@
         top: 10px;
     }
     img {
-        width: 150px;
-        height: 150px;
+        @include sizes(150px, 150px);
         &:hover {
             transform: scale(1, 1.1);
         }

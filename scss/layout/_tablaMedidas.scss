@@ -1,0 +1,63 @@
+/****************************************************** PAGINA TABLA DE MEDIDAS *************************************************/
+
+$bordeRedondeado: true;
+$borderTabla: black 1px solid;
+$colorEncabezados: rgb(220, 247, 255);
+$colorInterior: rgb(243, 243, 147);
+$borderRadius: 0px;
+@if $bordeRedondeado==true {
+    $borderRadius: 20px;
+}
+
+.tablaMedidas {
+    border-spacing: 2px;
+    border-collapse: separate;
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: $borderTabla;
+    border-radius: $borderRadius;
+}
+
+.tablaMedidas--topLeftCorner {
+    border-top-left-radius: $borderRadius;
+}
+
+.tablaMedidas--topRightCorner {
+    border-top-right-radius: $borderRadius;
+}
+
+.tablaMedidas--bottomLeftCorner {
+    border-bottom-left-radius: $borderRadius;
+}
+
+.tablaMedidas--bottomRightCorner {
+    border-bottom-right-radius: $borderRadius;
+}
+
+.tablaMedidas__encabezados {
+    background-color: $colorEncabezados;
+    font-weight: bold;
+    border: $borderTabla;
+}
+
+.tablaMedidas #td-titulo {
+    @extend .tablaMedidas__encabezados;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.tablaMedidas td {
+    background-color: $colorInterior;
+    padding: 5px;
+    border: $borderTabla;
+}
+
+.tablaMedidas tr {
+    text-align: center;
+    border: $borderTabla;
+}
+
+
+/************************************************** FIN PAGINA TABLA DE MEDIDAS *************************************************/

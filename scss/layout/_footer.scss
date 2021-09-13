@@ -1,5 +1,6 @@
 /**** FOOTER GENERAL ****/
 
+$colorTransparente: rgba(223, 223, 223, 0);
 footer {
     text-align: center;
     border: 1px black solid;
@@ -26,20 +27,13 @@ footer {
             height: 40px;
         }
         /**** FOOTER - Social Medias ****/
-        .fa-facebook-square {
-            color: #3b5998;
-        }
-        .fa-instagram-square {
-            color: red;
-            background: rgba(223, 223, 223, 0);
-        }
-        .fa-whatsapp-square {
-            color: #23bd5b;
-            background: rgba(223, 223, 223, 0);
-        }
-        .fa-envelope-open {
-            color: rgb(236, 38, 38);
-            background: rgba(223, 223, 223, 0);
+        $redes:(facebook-square: #3b5998, instagram-square: red, whatsapp-square: #23bd5b, envelope-open: rgb(236, 38, 38));
+        @each $red,
+        $color in $redes {
+            .fa-#{$red} {
+                color: $color;
+                background: $colorTransparente;
+            }
         }
     }
     div#menu-footer {

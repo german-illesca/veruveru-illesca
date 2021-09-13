@@ -92,23 +92,9 @@
     grid-gap: 10px;
     margin-bottom: 20px;
     align-self: center;
-    /*    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-evenly;
-    min-height: 100vh;
-    */
 }
 
 .productosDestacados__img {
-    /*    width: 50%;
-    margin: 10px;
-    border: 3px solid black;
-    max-width: 25vw;
-    max-height: 40vh;
-    flex: 1;
-    float: left;
-    */
     width: 100%;
     height: 100%;
     margin: 10px;
@@ -117,49 +103,6 @@
 
 
 /****************************************************** FIN PAGINA INDEX ********************************************************/
-
-
-/****************************************************** PAGINA TABLA DE MEDIDAS *************************************************/
-
-.tablaMedidas {
-    border-spacing: 2px;
-    border-collapse: separate;
-    height: 300px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: 50%;
-    border: black 1px solid;
-}
-
-.tablaMedidas th {
-    background-color: rgb(220, 247, 255);
-    font-weight: bold;
-    border: black 1px solid;
-}
-
-.tablaMedidas #td-titulo {
-    text-align: right;
-    font-weight: bold;
-    background-color: rgb(220, 247, 255);
-    padding-right: 5px;
-    border: black 1px solid;
-}
-
-.tablaMedidas td {
-    background-color: rgb(243, 243, 147);
-    padding: 5px;
-    border: black 1px solid;
-}
-
-.tablaMedidas tr {
-    text-align: center;
-    border: black 1px solid;
-}
-
-
-/************************************************** FIN PAGINA TABLA DE MEDIDAS *************************************************/
 
 
 /****************************************************** FORMULARIO DE CONTACTO **************************************************/
