@@ -45,6 +45,9 @@ h2 {
   background-image: linear-gradient(90deg, rgba(247, 231, 132, 0.5) 30%, rgba(216, 123, 116, 0.8) 100%);
   color: #d35400;
   padding-bottom: 10px; }
+  .menu-principal a {
+    color: #d35400;
+    text-decoration: none; }
   .menu-principal div#menuDesplegable {
     grid-area: menuDesplegable;
     grid-column: 2; }
@@ -59,14 +62,18 @@ h2 {
       width: 165px;
       padding: 5px 5px 5px 5px;
       border: black solid 1px;
-      background-color: #dfdfdf;
+      border-radius: 20px;
+      background-color: #eef3c4;
       z-index: 2; }
       .menu-principal div#menuDesplegable ul ul li {
         display: block;
         width: 90%;
         text-align: left;
         padding-top: 5px;
-        z-index: 2; }
+        z-index: 2;
+        border-radius: 20px; }
+        .menu-principal div#menuDesplegable ul ul li:hover {
+          background-color: rgba(218, 186, 83, 0.864); }
     .menu-principal div#menuDesplegable ul:hover ul {
       display: block; }
   .menu-principal div#barra-busqueda {
@@ -87,14 +94,18 @@ h2 {
       width: 140px;
       padding: 5px 5px 5px 5px;
       border: black solid 1px;
-      background-color: #dfdfdf;
+      border-radius: 20px;
+      background-color: #eef3c4;
       z-index: 2; }
       .menu-principal div#miCuenta ul ul li {
         display: block;
         width: 90%;
         text-align: left;
         padding-top: 5px;
-        z-index: 2; }
+        z-index: 2;
+        border-radius: 20px; }
+        .menu-principal div#miCuenta ul ul li:hover {
+          background-color: rgba(218, 186, 83, 0.864); }
     .menu-principal div#miCuenta ul:hover ul {
       display: block; }
   .menu-principal div#carrito {
@@ -163,7 +174,10 @@ footer {
       grid-column: 16 / 17; }
     footer div#menu-footer a {
       color: #d35400;
-      text-decoration: none; }
+      text-decoration: none;
+      border-radius: 20px; }
+      footer div#menu-footer a:hover {
+        background-color: rgba(218, 186, 83, 0.864); }
 
 /****************************************************** PAGINA TABLA DE MEDIDAS *************************************************/
 .tablaMedidas {

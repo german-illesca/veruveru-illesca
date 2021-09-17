@@ -64,6 +64,10 @@ footer {
         a {
             color: #d35400;
             text-decoration: none;
+            border-radius: 20px;
+            &:hover {
+                background-color: rgba(218, 186, 83, 0.864);
+            }
         }
     }
 }
