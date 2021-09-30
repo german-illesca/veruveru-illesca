@@ -1,18 +1,13 @@
 /****************************************************** PAGINA TABLA DE MEDIDAS *************************************************/
 
-$bordeRedondeado: true;
-$borderTabla: black 1px solid;
-$colorEncabezados: rgb(220, 247, 255);
-$colorInterior: rgb(243, 243, 147);
-$borderRadius: 0px;
 @if $bordeRedondeado==true {
-    $borderRadius: 20px;
+    $borderRadius: 1.2rem;
 }
 
 .tablaMedidas {
-    border-spacing: 2px;
+    border-spacing: 0.15rem;
     border-collapse: separate;
-    height: 300px;
+    height: 20rem;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -45,12 +40,12 @@ $borderRadius: 0px;
 .tablaMedidas #td-titulo {
     @extend .tablaMedidas__encabezados;
     text-align: right;
-    padding-right: 5px;
+    padding-right: 0.25rem;
 }
 
 .tablaMedidas td {
     background-color: $colorInterior;
-    padding: 5px;
+    padding: 0.25rem;
     border: $borderTabla;
 }
 

@@ -8,6 +8,7 @@
     <meta name="description" content="Contacto VeruVeru bebes, mandanos un mensaje y ponete en contacto con nosotros">
     <meta name="keywords" content="ROPA, BEBES, LANA, COSTURA, TEJIDO, REGALOS, MEDIO, CONTACTO">
     <title>VeruVeru Bebés - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles1.css">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/6d22309898.js" crossorigin="anonymous"></script>
@@ -54,32 +55,43 @@
 
     <section id="contacto">
         <br>
-
-        <h1>Ponte en contacto con nosotros</h1>
-        <form class="formularioContacto" id="formulario">
-            <label for="nombre-contacto">Nombre: </label>
-            <input id="nombre-contacto" type="text" name="nombre" required>
-            <br>
-            <label for="apellido-contacto">Apellido: </label>
-            <input id="apellido-contacto" type="text" name="apellido" required>
-            <br>
-            <label for="email-contacto">Email: </label>
-            <input id="email-contacto" type="text" name="email" required>
-            <br>
-            <label for="estado-civil">Estado civil: </label>
-            <select id="estado civil">
-            <option value="S">Soltero/a</option>
-            <option value="C">Casado/a</option>
-        </select>
-            <br>
-            <label for="news-contacto">Desea recibir el newsletter? </label>
-            <input id="news-contacto" type="checkbox" name="news">
+        <div class="container">
+            <h1>Ponte en contacto con nosotros</h1>
             <br><br>
-            <textarea placeholder="Comentarios" rows="6" cols="40"></textarea>
-            <br>
-            <input type="reset" value="Limpiar formulario">
-            <input type="submit" value="Enviar formulario">
-        </form>
+            <form class="formularioContacto" id="formulario">
+                <div class="form-group">
+                    <label for="nombre-contacto">Nombre: </label>
+                    <input id="nombre-contacto" type="text" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido-contacto">Apellido: </label>
+                    <input id="apellido-contacto" type="text" name="apellido" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-contacto">Email: </label>
+                    <input id="email-contacto" type="text" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="estado-civil">Estado civil: </label>
+                    <select id="estado civil">
+                        <option value="S">Soltero/a</option>
+                        <option value="C">Casado/a</option>
+                    </select>
+                </div>
+                <div class="form-check">
+                    <label for="news-contacto">Desea recibir el newsletter? </label>
+                    <input id="news-contacto" type="checkbox" name="news">
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea placeholder="Comentarios" rows="6" cols="40"></textarea>
+                </div>
+                <br>
+                <input class="btn btn-primary" type="reset" value="Limpiar formulario">
+                <input class="btn btn-primary" type="submit" value="Enviar formulario">
+                <br><br>
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -127,6 +139,7 @@
         <br>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 
 </html>
