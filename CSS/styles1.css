@@ -70,7 +70,8 @@ h2 {
         text-align: left;
         padding-top: 0.25rem;
         z-index: 2;
-        border-radius: 1.25rem; }
+        border-radius: 1.25rem;
+        padding-left: 1rem; }
         .menu-principal div#menuDesplegable ul ul li:hover {
           background-color: rgba(218, 186, 83, 0.864); }
     .menu-principal div#menuDesplegable ul:hover ul {
@@ -102,7 +103,8 @@ h2 {
         text-align: left;
         padding-top: 0.25rem;
         z-index: 2;
-        border-radius: 1.25rem; }
+        border-radius: 1.25rem;
+        padding-left: 1rem; }
         .menu-principal div#miCuenta ul ul li:hover {
           background-color: rgba(218, 186, 83, 0.864); }
     .menu-principal div#miCuenta ul:hover ul {

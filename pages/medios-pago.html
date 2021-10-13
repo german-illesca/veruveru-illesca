@@ -13,6 +13,18 @@
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/6d22309898.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../images/favicon-32x32.png" type="image/png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL4PMFTHG6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PL4PMFTHG6');
+    </script>
 </head>
 
 <body>
@@ -27,15 +39,33 @@
                 <ul>
                     <li><i class="fas fa-bars"></i></li>
                     <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li>Productos</li>
-                        <li><a href="../pages/tabla-medidas.html">Tabla de Medidas</a></li>
-                        <li><a href="../pages/medios-pago.html">Medios de Pago</a></li>
-                        <li><a href="../pages/formas-envio.html">Formas de Envío</a></li>
-                        <li><a href="../pages/como-comprar.html">Cómo comprar</a></li>
-                        <li><a href="../pages/contacto.html">Contacto</a></li>
-                        <li>Crear cuenta</li>
-                        <li>Iniciar Sesión</li>
+                        <a href="../index.html">
+                            <li>Inicio</li>
+                        </a>
+                        <a href="#">
+                            <li>Productos</li>
+                        </a>
+                        <a href="../pages/tabla-medidas.html">
+                            <li>Tabla de Medidas</li>
+                        </a>
+                        <a href="../pages/medios-pago.html">
+                            <li>Medios de Pago</li>
+                        </a>
+                        <a href="../pages/formas-envio.html">
+                            <li>Formas de Envío</li>
+                        </a>
+                        <a href="../pages/como-comprar.html">
+                            <li>Cómo comprar</li>
+                        </a>
+                        <a href="../pages/contacto.html">
+                            <li>Contacto</li>
+                        </a>
+                        <a href="#">
+                            <li>Crear cuenta</li>
+                        </a>
+                        <a href="#">
+                            <li>Iniciar Sesión</li>
+                        </a>
                     </ul>
                 </ul>
             </div>
@@ -44,55 +74,61 @@
                 <ul>
                     <li>Mi cuenta</li>
                     <ul>
-                        <li>Crear cuenta</li>
-                        <li>Iniciar Sesión</li>
+                        <a href="#">
+                            <li>Crear cuenta</li>
+                        </a>
+                        <a href="#">
+                            <li>Iniciar Sesión</li>
+                        </a>
                     </ul>
                 </ul>
             </div>
-            <div id="carrito"><i class="fas fa-cart-plus"></i> 0</div>
+            <div id="carrito"><a href="#"><i class="fas fa-cart-plus"></i></a> 0</div>
         </div>
     </nav>
 
     <section id="mediosDePago">
         <div class="container">
-            <br>
             <h1>Medios de Pago</h1>
-            <br><br>
-            <h2>¿Cómo puedo pagar?</h2>
-            <p>Podés pagar a través de MercadoPago con:</p>
-            <ul>
-                <li>Tarjeta de crédito.</li>
+            <br>
+            <div class="marcoPagos">
+                <h2>¿Cómo puedo pagar?</h2>
                 <br>
+                <p>Podés pagar a través de MercadoPago con:</p>
                 <ul>
-                    <li>MasterCard</li>
-                    <li>Visa</li>
-                    <li>Naranja</li>
-                    <li>American Express</li>
+                    <li>Tarjeta de crédito.</li>
+                    <br>
+                    <ul>
+                        <li>MasterCard</li>
+                        <li>Visa</li>
+                        <li>Naranja</li>
+                        <li>American Express</li>
+                    </ul>
+                    <br>
+                    <li>Tarjeta de débito</li>
+                    <br>
+                    <li>Efectivo: Seleccionando la opción cupón de pago y acercándote a cualquier sucursal de Rapipago , Pago Fácil o Provincia NET pagos dentro de los 3 días hecha la compra. Luego de ese periodo si no abonaste, el pedido se cancelará automáticamente
+                        y deberás generarlo nuevamente.</li>
+                    <br>
+                    <li>Con saldo pre-cargado en tu cuenta de MercadoPago.</li>
                 </ul>
                 <br>
-                <li>Tarjeta de débito</li>
-                <br>
-                <li>Efectivo: Seleccionando la opción cupón de pago y acercándote a cualquier sucursal de Rapipago , Pago Fácil o Provincia NET pagos dentro de los 3 días hecha la compra. Luego de ese periodo si no abonaste, el pedido se cancelará automáticamente
-                    y deberás generarlo nuevamente.</li>
-                <br>
-                <li>Con saldo pre-cargado en tu cuenta de MercadoPago.</li>
-            </ul>
-            <br>
 
-            <h2>¿Cuál es la financiación con tarjeta de crédito?</h2>
+                <h2>¿Cuál es la financiación con tarjeta de crédito?</h2>
 
-            <p>Dentro del proceso de compra, cuando te encuentres en la sección MEDIOS DE PAGO, podés:</p>
-            <ul>
-                <li>Seleccionar "Tarjetas de crédito" para abonar con las cuotas sin interés que ofrezca la marca en todo el sitio. Ver bases y condiciones en promociones vigentes.</li>
+                <p>Dentro del proceso de compra, cuando te encuentres en la sección MEDIOS DE PAGO, podés:</p>
+                <ul>
+                    <li>Seleccionar "Tarjetas de crédito" para abonar con las cuotas sin interés que ofrezca la marca en todo el sitio. Ver bases y condiciones en promociones vigentes.</li>
+                    <br>
+                    <li>Seleccionar "Mercado pago" para acceder a la financiación que brinda Mercado Pago. Conocela ingresando aquí.</li>
+                </ul>
                 <br>
-                <li>Seleccionar "Mercado pago" para acceder a la financiación que brinda Mercado Pago. Conocela ingresando aquí.</li>
-            </ul>
-            <br>
-            <h2>¿Puedo pagar con dos medios de pago?</h2>
-            <p>Sólo se podrá realizar desde la plataforma de Mercado Pago.</p>
-            <br>
-            <h2>¿Puedo pagar con una tarjeta extranjera?</h2>
-            <p>No, por el momento aceptamos únicamente tarjetas emitidas en Argentina.</p>
+                <h2>¿Puedo pagar con dos medios de pago?</h2>
+                <p>Sólo se podrá realizar desde la plataforma de Mercado Pago.</p>
+                <br>
+                <h2>¿Puedo pagar con una tarjeta extranjera?</h2>
+                <p>No, por el momento aceptamos únicamente tarjetas emitidas en Argentina.</p>
+            </div>
             <br>
             <br>
         </div>
