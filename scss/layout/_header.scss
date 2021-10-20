@@ -54,18 +54,18 @@
             ul {
                 position: absolute;
                 display: none;
-                width: 10.1rem;
+                width: 12rem;
                 padding: 0.25rem;
                 border: black solid 0.1rem;
                 border-radius: 1.25rem;
                 background-color: rgb(238, 243, 196);
-                z-index: 2;
+                z-index: 5;
                 li {
                     display: block;
                     width: 90%;
                     text-align: left;
                     padding-top: 0.25rem;
-                    z-index: 2;
+                    z-index: 5;
                     border-radius: 1.25rem;
                     padding-left: 1rem;
                     &:hover {
@@ -79,10 +79,6 @@
                 }
             }
         }
-    }
-    div#barra-busqueda {
-        grid-area: busqueda;
-        grid-column: 3 / 6;
     }
     div#miCuenta {
         grid-area: miCuenta;
@@ -103,13 +99,13 @@
                 border: black solid 0.1rem;
                 border-radius: 1.25rem;
                 background-color: rgb(238, 243, 196);
-                z-index: 2;
+                z-index: 5;
                 li {
                     display: block;
                     width: 90%;
                     text-align: left;
                     padding-top: 0.25rem;
-                    z-index: 2;
+                    z-index: 5;
                     border-radius: 1.25rem;
                     padding-left: 1rem;
                     &:hover {

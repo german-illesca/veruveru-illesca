@@ -20,6 +20,8 @@
     display: flex;
     justify-content: center;
     background-image: radial-gradient(ellipse at center, rgb(243, 243, 171) 50%, rgb(238, 169, 40) 100%);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #carrousel {
@@ -30,14 +32,14 @@
 
 .h5-item-carrousel {
     font-family: 'Kaisei HarunoUmi', serif;
-    font-weight: 800;
-    font-size: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .p-item-carrousel {
     font-family: 'Kaisei HarunoUmi', serif;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 #item1 h5 {
@@ -75,9 +77,45 @@
     margin: 0rem;
 }
 
+.novedadesDiv {
+    width: 98%;
+}
+
+.fondoItem {
+    width: 20%;
+    border: black solid 0.1rem;
+    border-radius: 1.25rem;
+    background-color: rgb(240, 225, 167);
+    padding: 0.3rem;
+    margin-left: 0.1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.fondoItem h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+}
+
+.fondoItem #descripcion {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin: 0 0 0.2rem;
+}
+
+.fondoItem #precio {
+    font-weight: bold;
+    text-align: right;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-right: 0.5rem;
+}
+
 .img-thumbnail {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 1.5rem;
 }
 
 
@@ -101,11 +139,39 @@
     justify-content: space-around;
 }
 
+.productosDestacados__grilla__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    border: black solid 0.15rem;
+}
+
+.productosDestacados__grilla__item h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+}
+
+.productosDestacados__grilla__item #descripcion {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin: 0 0 0.2rem;
+}
+
+.productosDestacados__grilla__item #precio {
+    font-weight: bold;
+    text-align: right;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-right: 0.5rem;
+}
+
 .productosDestacados__img {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 0rem;
     border: black 0.15rem solid;
+    border-radius: 1.2rem;
 }
 
 
@@ -157,6 +223,14 @@ select:hover {
 
 .formularioContacto {
     margin-left: 1.2rem;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: rgb(196, 105, 96);
+    border-color: rgb(196, 105, 96);
 }
 
 
@@ -268,21 +342,9 @@ select:hover {
 
 /* DEFINICIONES PANTALLAS DE MENOS DE 768px */
 
-@media screen and (min-width: 960px) and (max-width: 1100px) {
-    .img-thumbnail {
-        height: 44vh;
-    }
-}
-
 @media screen and (min-width: 769px) and (max-width: 1100px) {
     #carrousel {
         width: 80%;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 959px) {
-    .img-thumbnail {
-        height: 40vh;
     }
 }
 
@@ -313,9 +375,6 @@ select:hover {
     #carrousel {
         width: 90%;
     }
-    .img-thumbnail {
-        height: 33vh;
-    }
     .videoComoComprar {
         width: 100%;
     }
@@ -328,7 +387,7 @@ select:hover {
     * {
         font-family: 'Times New Roman', Times, serif;
         line-height: 1;
-        font-size: 12px;
+        font-size: 14px;
     }
     .contenedor-logo {
         background-color: rgb(247, 216, 247);
@@ -351,11 +410,18 @@ select:hover {
     #carrousel {
         width: 100%;
     }
-    .img-thumbnail {
-        height: 28vh;
+    .h5-item-carrousel {
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+    .p-item-carrousel {
+        display: none;
     }
     .videoComoComprar {
         width: 100%;
+    }
+    .formularioContacto textarea {
+        width: 16rem;
     }
     .formularioContacto textarea:hover {
         width: 100%;
@@ -366,5 +432,57 @@ select:hover {
     }
     .marcoPagos {
         padding: 1.5rem;
+    }
+    .menu-principal div#miCuenta {
+        grid-column: 14 / 18;
+    }
+    .menu-principal div#menuDesplegable ul ul {
+        width: 10rem;
+        padding: 0.3rem;
+    }
+    .menu-principal div#miCuenta ul ul {
+        width: 8rem;
+        padding: 0.3rem;
+    }
+    .menu-principal div#menuDesplegable ul ul li {
+        padding-left: 0.4rem;
+    }
+    .menu-principal div#miCuenta ul ul li {
+        padding-left: 0.4rem;
+    }
+    .productosDestacados__banner {
+        height: 3rem;
+    }
+    .productosDestacados__grilla {
+        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    }
+    .fondoItem {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    * {
+        font-size: 13px;
+    }
+    .menu-principal div#miCuenta {
+        grid-column: 10 / 14;
+    }
+    .menu-principal div#menuDesplegable ul ul {
+        width: 9.5rem;
+        padding: 0.3rem;
+    }
+    .menu-principal div#miCuenta ul ul {
+        width: 7.8rem;
+        padding: 0.3rem;
+    }
+    .menu-principal div#menuDesplegable ul ul li {
+        padding-left: 0.4rem;
+    }
+    .menu-principal div#miCuenta ul ul li {
+        padding-left: 0.4rem;
+    }
+    .productosDestacados__banner {
+        height: 3rem;
     }
 }

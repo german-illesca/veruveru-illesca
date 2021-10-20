@@ -37,7 +37,7 @@
         <div class="menu-principal" id="encabezado">
             <div id="menuDesplegable">
                 <ul>
-                    <li><i class="fas fa-bars"></i></li>
+                    <li><i class="fas fa-bars fa-lg"></i></li>
                     <ul>
                         <a href="index.html">
                             <li>Inicio</li>
@@ -69,7 +69,6 @@
                     </ul>
                 </ul>
             </div>
-            <div id="barra-busqueda">Barra de Búsqueda</div>
             <div id="miCuenta">
                 <ul>
                     <li>Mi cuenta</li>
@@ -83,7 +82,7 @@
                     </ul>
                 </ul>
             </div>
-            <div id="carrito"><a href="#"><i class="fas fa-cart-plus"></i></a> 0</div>
+            <div id="carrito"><a href="#"><i class="fas fa-cart-plus fa-lg"></i></a> 0</div>
         </div>
     </nav>
 
@@ -99,15 +98,15 @@
                     <div id="item1" class="carousel-item active">
                         <img src="./images/carrousel/pexels-taryn-elliott-3889818_16-9.jpg" class="d-block w-100" alt="ropa-de-lana" loading="lazy">
                         <div class="carousel-caption d-md-block">
-                            <h5 class="h5-item-carrousel">Abrigaditos como los que hace mi abuela</h5>
-                            <p class="p-item-carrousel">Ropa tejida, hecha a mano y con mucho amor para tu bebé</p>
+                            <h5 class="h5-item-carrousel">Abrigaditos como los de mi abuela</h5>
+                            <p class="p-item-carrousel">Tejida a mano y con mucho amor para tu bebé</p>
                         </div>
                     </div>
                     <div id="item2" class="carousel-item">
                         <img src="./images/carrousel/baby-1399332_1280_16-9.jpg" class="d-block w-100" alt="ropa-en-tela" loading="lazy">
                         <div class="carousel-caption d-md-block">
                             <h5 class="h5-item-carrousel">Qué canchero!!!</h5>
-                            <p class="p-item-carrousel">Ropa hecha a mano, para que tu bebé luzca alta facha</p>
+                            <p class="p-item-carrousel">Pensadas para que tu bebé se luzca</p>
                         </div>
                     </div>
                     <div id="item3" class="carousel-item">
@@ -132,33 +131,55 @@
     <section id="novedades-section">
         <h2 class="titulos">Novedades</h2>
         <!-- <div class="novedades"> -->
-        <div class="container">
-            <div class="row d-flex flex-row justify-content-around align-items-stretch">
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/osito-brujo.JPG" loading="lazy">
+        <div class="container-fluid novedadesDiv">
+            <div class="row d-flex flex-row justify-content-evenly align-items-stretch">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/oso-marron-hada-1-1.jpg" loading="lazy">
+                    <h4>Osito brujo</h4>
+                    <p id="descripcion">Amigurumi osito. Liviano y seguro. El mejor juguete para tu bebé</p>
+                    <p id="precio">$800,00</p>
                 </div>
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/saquito-beige.JPG" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/combo-body-y-gorro-1-1.jpg" loading="lazy">
+                    <h4>Combo body y gorrito</h4>
+                    <p id="descripcion">Combo en todos rosa. Calentito y práctico</p>
+                    <p id="precio">$950,00</p>
                 </div>
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/escarpines-blancos.JPG" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/escarpines-blancos-1-1.jpg" loading="lazy">
+                    <h4>Escarpines botita unisex</h4>
+                    <p id="descripcion">Color a elección, varias medidas</p>
+                    <p id="precio">$500,00</p>
                 </div>
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/panceritos.JPG" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/mono-con-dibujos-1-1.jpg" loading="lazy">
+                    <h4>Mono</h4>
+                    <p id="descripcion">De 0 a 3 meses. Consulta por otros talles</p>
+                    <p id="precio">$500,00</p>
                 </div>
-            </div>
-            <div class="row d-flex flex-row justify-content-around align-items-stretch">
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/pullover.jpg" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/pullover-blanco-con-flores-1-1.jpg" loading="lazy">
+                    <h4>Pullover lana</h4>
+                    <p id="descripcion">Con amor por los detalles</p>
+                    <p id="precio">$1800,00</p>
                 </div>
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/gorrito-beige.JPG" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/gorro-lana-beige-1-1.jpg" loading="lazy">
+                    <h4>Gorro de lana</h4>
+                    <p id="descripcion">Color a elección, medidas de 0 a 2 años</p>
+                    <p id="precio">$600,00</p>
                 </div>
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/combo-1.JPG" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/combo-blusa-floreada-y-vincha-1-1.jpg" loading="lazy">
+                    <h4>Combo blusa floreada y vincha</h4>
+                    <p id="descripcion">Un conjunto ideal para pasear a tu bebé</p>
+                    <p id="precio">$1600,00</p>
                 </div>
-                <div class="col-3">
-                    <img class="img-thumbnail" src="./images/products/enterito-beige.JPG" loading="lazy">
+                <div class="col-lg-3 col-md-4 col-sm-6 fondoItem">
+                    <img class="img-thumbnail" src="./images/products/enterito-panalero-rosa-1-1.jpg" loading="lazy">
+                    <h4>Enterito con cuello de broderie</h4>
+                    <p id="descripcion">Con botones que lo hacen práctico para cambiar los pañales</p>
+                    <p id="precio">$1650,00</p>
                 </div>
             </div>
         </div>
@@ -169,19 +190,57 @@
         </div>
         <h2 class="titulos">Productos Destacados</h2>
         <div class="productosDestacados__grilla">
-            <img class="productosDestacados__img" src="./images/products/abrigo-blanco.JPG" loading="lazy">
-            <img class="productosDestacados__img" src="./images/products/baby-1.JPG" loading="lazy">
-            <img class="productosDestacados__img" src="./images/products/blusita.jpg" loading="lazy">
-            <img class="productosDestacados__img" src="./images/products/combo-2.JPG" loading="lazy">
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/pullover-con-gorro-beige-1-1.jpg" loading="lazy">
+                <h4>Pullover con gorrito</h4>
+                <p id="descripcion">Color a elección, medidas de 0 a 2 años</p>
+                <p id="precio">$2850,00</p>
+            </div>
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/body-con-dibujos-varon-1-1.jpg" loading="lazy">
+                <h4>Body con diseño</h4>
+                <p id="descripcion">Tamaños de 0 a 3 meses</p>
+                <p id="precio">$1560,00</p>
+            </div>
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/blusa-blanca-con-detalles-1-1.jpg" loading="lazy">
+                <h4>Blusa con detalles</h4>
+                <p id="descripcion">Color a elección, medidas de 0 a 2 años</p>
+                <p id="precio">$950,00</p>
+            </div>
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/combo-body-saco-y-pantalon-1-1.jpg" loading="lazy">
+                <h4>Combo body, saco y pantalón</h4>
+                <p id="descripcion">Conjunto moderno y divertido</p>
+                <p id="precio">$3000,00</p>
+            </div>
         </div>
         <div class="productosDestacados__grilla">
-            <img class="productosDestacados__img" src="./images/products/enterito-rosa.JPG" loading="lazy">
-            <img class="productosDestacados__img" src="./images/products/juguete-osito.JPG" loading="lazy">
-            <img class="productosDestacados__img" src="./images/products/saquito-celeste.JPG" loading="lazy">
-            <img class="productosDestacados__img" src="./images/products/abrigo-beige.JPG" loading="lazy">
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/escarpines-rosa-1-1.jpg" loading="lazy">
+                <h4>Escarpines lana</h4>
+                <p id="descripcion">Hechos a mano, colores a elección</p>
+                <p id="precio">$500,00</p>
+            </div>
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/coneja-azul-1-1.jpg" loading="lazy">
+                <h4>Amigurumi (coneja)</h4>
+                <p id="descripcion">Muñequita coneja de apego. Elegí en que colores la queres</p>
+                <p id="precio">$1200,00</p>
+            </div>
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/coneja-rosa-1-1.jpg" loading="lazy">
+                <h4>Amigurumi (coneja)</h4>
+                <p id="descripcion">Muñequita coneja de apego en tonos rosados</p>
+                <p id="precio">$1200,00</p>
+            </div>
+            <div class="productosDestacados__grilla__item">
+                <img class="productosDestacados__img" src="./images/products/vestido-blanco-y-floreado-1-1.jpg" loading="lazy">
+                <h4>Vestido blanco y floreado</h4>
+                <p id="descripcion">Talle 2 años. Otros talles y diseños disponibles</p>
+                <p id="precio">$1500,00</p>
+            </div>
         </div>
-        <br>
-        <br>
     </section>
 
     <footer>
